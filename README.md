@@ -4,7 +4,7 @@ LU 2.4 uses the same Node.js and PostgreSQL reference application. Today you cha
 
 ## Prerequisites
 
-Bash on macOS, Linux or Windows WSL Ubuntu; Git, Node.js 18+, npm and a GitHub account. A classmate with a separate GitHub account must review your PR.
+Bash on macOS, Linux or Windows WSL Ubuntu; Git, Node.js 18+, npm and a GitHub account. This is a solo exercise; no reviewer is required.
 
 ## Begin
 
@@ -33,11 +33,9 @@ git diff -- .gitignore
 
 All four local paths must be ignored. `.env.example` must remain tracked. The tracked-local-files command must print nothing.
 
-## Peer review
+## Solo PR self-check
 
-Add your partner as a repository collaborator and let them accept the invitation. They review the Files changed tab and verification evidence, leave useful feedback, and approve only once satisfied. You reply or push a fix on the same branch. The owner merges the approved PR and confirms the linked issue closed.
-
-GitHub authors cannot approve their own PR. Do not self-review. If a partner is unavailable, ask your mentor to review. You can do the local work while waiting, but do not present an unreviewed merge as complete.
+Inspect Files changed. Post a comment confirming scope, exclusions, safe example, passing tests and absence of credentials/generated files. This is not formal approval. Merge as owner after existing requirements pass and confirm issue closure. Never bypass repository rules.
 
 ## Boundaries
 
