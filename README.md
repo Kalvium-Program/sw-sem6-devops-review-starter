@@ -1,6 +1,6 @@
 # Campus Events: Review an Operational Change
 
-LU 2.4 uses the same Node.js and PostgreSQL reference application. Today you change only Git ignore rules. No app server, database, Docker or CI setup required.
+This is the same Campus Events app (Node.js and PostgreSQL). Today you change only the Git ignore rules. No app server, database, Docker or CI setup required.
 
 ## Prerequisites
 
